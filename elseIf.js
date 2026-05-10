@@ -8,6 +8,8 @@
 == 0 → "Zero"
 👉 if / else if / else ব্যবহার করো */
 
+
+
 var number = 10;
 if(number>0){
     console.log("Positive");
@@ -82,3 +84,48 @@ else {
     console.log("Senior Discount");
 }
 
+
+/* Ticket Price
+
+age নাও।
+
+age < 5 → "Free"
+5–12 → "50 Taka"
+13–60 → "100 Taka"
+60+ → "Senior Discount" */
+
+var age =25;
+if (age <5){
+    console.log("free");
+}else if(age>=5 && age<=12){
+    console.log ("50 taka");
+} else if ( age>=13 && age<=60){
+    console.log("100 taka");
+}else if(age>60){
+    console.log("Senior Discount");
+}else{
+    console.log("Invalid age");
+}
+
+
+/*Internet Package
+
+dataUsed (GB) নাও।
+
+≤ 1 → "Low Usage"
+≤ 5 → "Medium Usage"
+
+5 → "High Usage" */
+
+
+var dataUsed=10;
+if(dataUsed<=1){
+    console.log("Low Usage");
+}else if (dataUsed<=5){
+    console.log("Medium Usage");
+}else if (dataUsed===10){
+    console.log ( "high Usage");
+}
+else{
+    console.log("invalid data usage");
+}  
