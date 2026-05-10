@@ -5,6 +5,8 @@ console.log(Rochona.toLowerCase());
 var myFrnd="Shanto,fuad,hridoy,sakib,emon";
 console.log(myFrnd.split("hridoy"));
 console.log(myFrnd.indexOf("sakib"));
-console.log(myFrnd.indexOf("sohel"));
+console.log(myFrnd.indexOf("sohel")); 
 
 
+
+                   
