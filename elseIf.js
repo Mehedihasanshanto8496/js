@@ -166,7 +166,16 @@ if (marks>=40 && attendance === "true"){
 
 
 
+/* Role Based Access
 
+role variable:
+
+"admin" → "Full Access"
+"editor" → "Edit Access"
+"user" → "View Only"
+else → "No Access"
+
+👉 if / else if */
 
 
 
