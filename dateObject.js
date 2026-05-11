@@ -1,0 +1,10 @@
+  var myTime= new Date();  
+  console.log(myTime.toTimeString());
+  console.log(myTime.toLocaleDateString());
+  console.log(myTime.toLocaleTimeString());
+  console.log(myTime.toLocaleString()); 
+  console.log( myTime.toDateString());
+  console.log(myTime.toISOString());
+  console.log(myTime.toLocaleDateString());
+  console.log(myTime.toLocaleTimeString());
+  console.log(myTime.toLocaleString());
