@@ -129,3 +129,65 @@ if(dataUsed<=1){
 else{
     console.log("invalid data usage");
 }  
+
+
+
+
+/* Student Result App
+
+Variables:
+
+marks
+attendance (true / false)
+
+Rules:
+
+marks ≥ 40 AND attendance true → "Pass"
+marks ≥ 40 AND attendance false → "Attendance Low"
+marks < 40 → "Fail"
+
+👉 if + logical operators */
+
+
+var marks= 75;
+var attendance= "true";
+if (marks>=40 && attendance === "true"){
+    console.log("Pass");
+}else if(marks>=40 && attendance === "false"){
+    console.log(" attendance Low");
+
+} else if (marks<40 ){
+    console.log("fail");
+}else{
+    console.log("Invalid marks or attendance");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var role = "editor";
+
+if (role === "admin") {
+    console.log("Full Access");
+}
+else if (role === "editor") {
+    console.log("Edit Access");
+}
+else if (role === "user") {
+    console.log("View Only");
+}
+else {
+    console.log("No Access");
+}

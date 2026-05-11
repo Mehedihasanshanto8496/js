@@ -30,3 +30,31 @@ if (number %2 ===0){
 }else{
     console.log("Odd");
 }
+
+
+/* Project 1: ATM System (Basic)
+
+Variables:
+
+balance
+withdrawAmount
+
+Rules:
+
+withdrawAmount ≤ balance → "Transaction Success"
+withdrawAmount > balance → "Insufficient Balance"
+
+👉 if / else */
+
+var balance = 10000;
+var withdrawAmount= 4200;
+
+
+if (withdrawAmount<=balance){
+    console.log("Transaction success");
+} else if ( withdrawAmount>balance){
+    console.log("Insufficient Balance");
+}
+else{
+    console.log("Failed");
+}
