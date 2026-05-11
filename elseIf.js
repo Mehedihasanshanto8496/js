@@ -164,8 +164,6 @@ if (marks>=40 && attendance === "true"){
 
 
 
-
-
 /* Role Based Access
 
 role variable:
@@ -176,12 +174,6 @@ role variable:
 else → "No Access"
 
 👉 if / else if */
-
-
-
-
-
-
 
 
 
